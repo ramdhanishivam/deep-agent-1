@@ -16,6 +16,7 @@ export const internetSearch = tool(
   }) => {
     const tavilySearch = new TavilySearch({
       maxResults,
+      // TAVILY_API_KEY - create .env and add key value
       tavilyApiKey: process.env.TAVILY_API_KEY,
       includeRawContent,
       topic,
