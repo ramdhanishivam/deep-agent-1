@@ -1,5 +1,5 @@
 import { createDeepAgent } from "deepagents";
-import { internetSearch } from "./tools/internetSearch";
+import { internetSearch } from "./internetSearch";
 import { ChatOllama } from "@langchain/ollama";
 
 // System prompt to steer the agent to be an expert researcher
